@@ -1,0 +1,6 @@
+@Jerome.Api_HostAddress = http://localhost:5209
+
+GET {{Jerome.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

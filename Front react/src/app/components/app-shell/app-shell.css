@@ -1,0 +1,67 @@
+.app-shell {
+  background:
+    radial-gradient(circle at 12% 8%, rgba(184, 135, 53, 0.12), transparent 26rem),
+    linear-gradient(180deg, #fbf6ee 0%, #fffaf3 54%, #f3eadc 100%);
+  color: #15281f;
+}
+
+.app-sidebar {
+  background:
+    radial-gradient(circle at 70% 8%, rgba(234, 216, 173, 0.16), transparent 14rem),
+    linear-gradient(160deg, #173326 0%, #274b38 100%);
+}
+
+.app-sidebar-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid rgba(234, 216, 173, 0.6);
+  background: #fffaf3;
+}
+
+.app-sidebar-subtitle,
+.app-nav-idle,
+.app-logout {
+  color: #ead8ad;
+}
+
+.app-nav-active {
+  background: rgba(234, 216, 173, 0.18);
+}
+
+.app-nav-idle:hover,
+.app-logout:hover {
+  background: rgba(255, 250, 243, 0.1);
+}
+
+.app-nav-icon-active,
+.app-nav-dot {
+  color: #ead8ad;
+  background: #ead8ad;
+}
+
+.app-nav-icon {
+  color: rgba(234, 216, 173, 0.72);
+}
+
+.app-header {
+  border-bottom: 1px solid rgba(21, 40, 31, 0.12);
+  background: rgba(251, 246, 238, 0.9);
+  backdrop-filter: blur(14px);
+}
+
+.app-search {
+  border: 1px solid rgba(21, 40, 31, 0.14);
+  background: #fffaf3;
+  color: #15281f;
+}
+
+.app-search::placeholder {
+  color: rgba(21, 40, 31, 0.48);
+}
+
+.app-search:focus {
+  border-color: #b88735;
+  box-shadow: 0 0 0 3px rgba(184, 135, 53, 0.16);
+}

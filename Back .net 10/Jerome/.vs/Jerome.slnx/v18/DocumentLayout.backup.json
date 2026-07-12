@@ -1,0 +1,607 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\implementations\\uploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\implementations\\uploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\wwwroot\\uploads\\images\\47f72337-575b-47d3-ba92-c869f28e3972.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\wwwroot\\uploads\\images\\47f72337-575b-47d3-ba92-c869f28e3972.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\wwwroot\\uploads\\images\\416dbdfe-7451-43a4-93e8-658feca730ae.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\wwwroot\\uploads\\images\\416dbdfe-7451-43a4-93e8-658feca730ae.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\implementations\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\jerome.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\jerome.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\implementations\\prophetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\implementations\\prophetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\controllers\\uploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\interfaces\\iuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\interfaces\\iuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\controllers\\questioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\implementations\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\implementations\\questionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\question\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\question\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\choice\\createchoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\choice\\createchoicedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\interfaces\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\interfaces\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\controllers\\prophetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\controllers\\prophetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\interfaces\\iprophetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\interfaces\\iprophetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\repositories\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\helpers\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\question\\updatequestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\question\\updatequestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\question\\createquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\question\\createquestiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\prophet\\prophetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\prophet\\prophetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\prophet\\updateprophetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\prophet\\updateprophetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\prophet\\createprophetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\prophet\\createprophetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\entities\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\entities\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\entities\\prophet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\entities\\prophet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|c:\\users\\armia gamal\\downloads\\new folder (43)\\jerome\\jerome.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{486B8EF0-8C4B-9E94-F7EA-2F331E8B95A0}|Jerome.Api\\Jerome.Api.csproj|solutionrelative:jerome.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUploadService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IUploadService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Interfaces\\IUploadService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IUploadService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Interfaces\\IUploadService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:09:33.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuestionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Question\\QuestionDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Question\\QuestionDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Question\\QuestionDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Question\\QuestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:07:39.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Program.cs",
+              "RelativeToolTip": "Jerome.Api\\Program.cs",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAswL0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:23:29.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProphetService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\ProphetService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Implementations\\ProphetService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\ProphetService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Implementations\\ProphetService.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwJsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:03:30.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jerome.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Jerome.Api.csproj",
+              "RelativeDocumentMoniker": "Jerome.Api\\Jerome.Api.csproj",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Jerome.Api.csproj",
+              "RelativeToolTip": "Jerome.Api\\Jerome.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-12T12:23:05.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Jerome.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:42:36.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UploadService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\UploadService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Implementations\\UploadService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\UploadService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Implementations\\UploadService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAswDsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:09:39.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "47f72337-575b-47d3-ba92-c869f28e3972.jpg - Bitmap [556x506, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\wwwroot\\Uploads\\Images\\47f72337-575b-47d3-ba92-c869f28e3972.jpg",
+              "RelativeDocumentMoniker": "Jerome.Api\\wwwroot\\Uploads\\Images\\47f72337-575b-47d3-ba92-c869f28e3972.jpg",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\wwwroot\\Uploads\\Images\\47f72337-575b-47d3-ba92-c869f28e3972.jpg - Bitmap [556x506, 24 bit, JPG]",
+              "RelativeToolTip": "Jerome.Api\\wwwroot\\Uploads\\Images\\47f72337-575b-47d3-ba92-c869f28e3972.jpg - Bitmap [556x506, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-07-12T13:58:38.947Z",
+              "EditorCaption": " - Bitmap [556x506, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Implementations\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:41:50.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "416dbdfe-7451-43a4-93e8-658feca730ae.jpg - Bitmap [556x506, 24 bit, JPG]",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\wwwroot\\Uploads\\Images\\416dbdfe-7451-43a4-93e8-658feca730ae.jpg",
+              "RelativeDocumentMoniker": "Jerome.Api\\wwwroot\\Uploads\\Images\\416dbdfe-7451-43a4-93e8-658feca730ae.jpg",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\wwwroot\\Uploads\\Images\\416dbdfe-7451-43a4-93e8-658feca730ae.jpg - Bitmap [556x506, 24 bit, JPG]",
+              "RelativeToolTip": "Jerome.Api\\wwwroot\\Uploads\\Images\\416dbdfe-7451-43a4-93e8-658feca730ae.jpg - Bitmap [556x506, 24 bit, JPG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-07-12T13:58:37.861Z",
+              "EditorCaption": " - Bitmap [556x506, 24 bit, JPG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UploadController.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\UploadController.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Controllers\\UploadController.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\UploadController.cs",
+              "RelativeToolTip": "Jerome.Api\\Controllers\\UploadController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:09:47.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\QuestionService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Implementations\\QuestionService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Implementations\\QuestionService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Implementations\\QuestionService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAswJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:08:00.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "QuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\QuestionController.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Controllers\\QuestionController.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\QuestionController.cs",
+              "RelativeToolTip": "Jerome.Api\\Controllers\\QuestionController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:08:17.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IQuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IQuestionService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Interfaces\\IQuestionService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IQuestionService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Interfaces\\IQuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:07:09.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProphetService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IProphetService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Interfaces\\IProphetService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IProphetService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Interfaces\\IProphetService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:03:24.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Jerome.Api\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:42:11.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "RelativeToolTip": "Jerome.Api\\Repositories\\Interfaces\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:41:43.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateChoiceDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Choice\\CreateChoiceDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Choice\\CreateChoiceDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Choice\\CreateChoiceDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Choice\\CreateChoiceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:41:02.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProphetController.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\ProphetController.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Controllers\\ProphetController.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Controllers\\ProphetController.cs",
+              "RelativeToolTip": "Jerome.Api\\Controllers\\ProphetController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA9wEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T13:03:38.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Helpers\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Helpers\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Helpers\\JwtHelper.cs",
+              "RelativeToolTip": "Jerome.Api\\Helpers\\JwtHelper.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:41:34.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateQuestionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Question\\UpdateQuestionDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Question\\UpdateQuestionDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Question\\UpdateQuestionDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Question\\UpdateQuestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:40:51.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateQuestionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Question\\CreateQuestionDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Question\\CreateQuestionDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Question\\CreateQuestionDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Question\\CreateQuestionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:40:43.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProphetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Prophet\\ProphetDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Prophet\\ProphetDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Prophet\\ProphetDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Prophet\\ProphetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:40:29.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateProphetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Prophet\\UpdateProphetDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Prophet\\UpdateProphetDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Prophet\\UpdateProphetDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Prophet\\UpdateProphetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:40:24.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateProphetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Prophet\\CreateProphetDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Prophet\\CreateProphetDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Prophet\\CreateProphetDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Prophet\\CreateProphetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:40:20.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:40:12.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "Jerome.Api\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:40:07.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Question.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Entities\\Question.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\Question.cs",
+              "RelativeToolTip": "Jerome.Api\\Entities\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:24:24.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Prophet.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\Prophet.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Entities\\Prophet.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\Prophet.cs",
+              "RelativeToolTip": "Jerome.Api\\Entities\\Prophet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:24:18.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Jerome.Api\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:24:03.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Jerome.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\appsettings.json",
+              "RelativeToolTip": "Jerome.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-12T12:23:17.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\User.cs",
+              "RelativeToolTip": "Jerome.Api\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:24:13.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Choice.cs",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\Choice.cs",
+              "RelativeDocumentMoniker": "Jerome.Api\\Entities\\Choice.cs",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\Entities\\Choice.cs",
+              "RelativeToolTip": "Jerome.Api\\Entities\\Choice.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-12T12:24:28.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Jerome.Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Armia Gamal\\Downloads\\New folder (43)\\Jerome\\Jerome.Api\\appsettings.Development.json",
+              "RelativeToolTip": "Jerome.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-12T12:30:42.456Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 450,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

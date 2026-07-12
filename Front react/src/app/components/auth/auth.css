@@ -1,0 +1,117 @@
+.auth-page {
+  min-height: 100vh;
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+  color: #15281f;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(184, 135, 53, 0.16), transparent 28rem),
+    linear-gradient(180deg, #fbf6ee 0%, #fffaf3 52%, #f3eadc 100%);
+}
+
+.auth-visual {
+  order: -1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+  background:
+    radial-gradient(circle at 70% 18%, rgba(234, 216, 173, 0.18), transparent 18rem),
+    linear-gradient(160deg, #173326 0%, #274b38 100%);
+}
+
+.auth-logo-frame {
+  width: min(82%, 430px);
+  border: 2px solid transparent;
+  border-radius: 26px;
+  background:
+    linear-gradient(#fffaf3, #fffaf3) padding-box,
+    linear-gradient(135deg, #8f6726 0%, #ead8ad 34%, #b88735 68%, #6f4b18 100%) border-box;
+  padding: 10px;
+  box-shadow: 0 24px 54px rgba(0, 0, 0, 0.22);
+}
+
+.auth-logo-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+}
+
+.auth-quote {
+  max-width: 440px;
+  text-align: center;
+}
+
+.auth-quote h2 {
+  color: #fffaf2;
+  font-size: 2.35rem;
+  font-weight: 950;
+  line-height: 1.25;
+}
+
+.auth-quote p {
+  margin-top: 1rem;
+  color: #ead8ad;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+.auth-form-side {
+  background: rgba(255, 250, 243, 0.78);
+}
+
+.auth-mobile-brand img {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(184, 135, 53, 0.45);
+}
+
+.auth-mobile-brand span,
+.auth-heading {
+  color: #173326;
+}
+
+.auth-mobile-brand span {
+  font-size: 1.15rem;
+  font-weight: 950;
+}
+
+.auth-input {
+  border: 1px solid rgba(21, 40, 31, 0.14);
+  background: #fffaf3;
+  color: #15281f;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.auth-input::placeholder {
+  color: rgba(21, 40, 31, 0.46);
+}
+
+.auth-input:focus {
+  border-color: #b88735;
+  box-shadow: 0 0 0 3px rgba(184, 135, 53, 0.16);
+}
+
+.auth-submit {
+  color: #fffaf2;
+  background: linear-gradient(135deg, #173326 0%, #274b38 100%);
+  box-shadow: 0 16px 30px rgba(23, 51, 38, 0.2);
+}
+
+.auth-divider-text {
+  background: #fffaf3;
+}
+
+.auth-google {
+  border: 1px solid rgba(21, 40, 31, 0.14);
+  background: #fffaf3;
+  color: #173326;
+}
+
+.auth-google:hover {
+  background: rgba(234, 216, 173, 0.28);
+}

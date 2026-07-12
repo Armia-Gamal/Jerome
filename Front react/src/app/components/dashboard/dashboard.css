@@ -1,0 +1,8 @@
+.dashboard-page {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+}
+
+.dashboard-welcome {
+  background: linear-gradient(135deg, #1B5E20 0%, #2E7D32 60%, #388E3C 100%);
+}

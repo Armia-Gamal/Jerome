@@ -1,0 +1,142 @@
+.admin-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 6%, rgba(184, 135, 53, 0.13), transparent 28rem),
+    #fbf6ee;
+}
+
+.admin-topbar {
+  background: rgba(251, 246, 238, 0.92);
+  backdrop-filter: blur(16px);
+}
+
+.admin-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid rgba(184, 135, 53, 0.35);
+}
+
+.admin-kicker {
+  color: #b88735;
+  font-size: 0.75rem;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.admin-title {
+  color: #173326;
+  font-size: 1.45rem;
+  font-weight: 950;
+  line-height: 1.2;
+}
+
+.admin-logout-button {
+  color: #173326;
+  border: 1px solid rgba(23, 51, 38, 0.16);
+  background: rgba(255, 250, 243, 0.78);
+}
+
+.admin-logout-button:hover {
+  background: rgba(184, 135, 53, 0.16);
+}
+
+.admin-brand {
+  background: linear-gradient(135deg, #173326 0%, #274b38 100%);
+}
+
+.admin-card {
+  border: 1px solid rgba(21, 40, 31, 0.12);
+  background: rgba(255, 250, 243, 0.9);
+}
+
+.admin-accent-badge {
+  background: #ead8ad;
+  color: #173326;
+}
+
+.admin-primary-button {
+  background: #173326;
+}
+
+.admin-warning-button {
+  background: #b88735;
+  color: #fffaf2;
+}
+
+.admin-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--muted-foreground);
+}
+
+.admin-input {
+  width: 100%;
+  border: 1px solid rgba(21, 40, 31, 0.14);
+  background: #fffaf3;
+  color: #15281f;
+  border-radius: 0.875rem;
+  padding: 0.8rem 0.95rem;
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.admin-input:focus {
+  border-color: #b88735;
+  box-shadow: 0 0 0 3px rgba(184, 135, 53, 0.16);
+}
+
+.admin-textarea {
+  min-height: 120px;
+  resize: vertical;
+  line-height: 1.8;
+}
+
+.admin-upload-box {
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  border: 1px dashed rgba(184, 135, 53, 0.55);
+  background: rgba(234, 216, 173, 0.16);
+  color: #173326;
+  border-radius: 0.875rem;
+  padding: 0.8rem 0.95rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+}
+
+.admin-upload-box:hover {
+  border-color: #b88735;
+  background: rgba(234, 216, 173, 0.28);
+  transform: translateY(-1px);
+}
+
+.admin-upload-box svg {
+  color: #b88735;
+  flex-shrink: 0;
+}
+
+.admin-upload-box span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.admin-file {
+  width: 100%;
+  border: 1px dashed var(--border);
+  background: color-mix(in srgb, var(--background) 96%, #2e7d32 4%);
+  color: var(--foreground);
+  border-radius: 0.875rem;
+  padding: 0.75rem 0.95rem;
+  font-size: 0.875rem;
+}

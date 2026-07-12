@@ -1,0 +1,46 @@
+.stories-page {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+  min-height: 100%;
+  color: #15281f;
+}
+
+.stories-title {
+  color: #173326;
+}
+
+.stories-subtitle,
+.story-verses {
+  color: rgba(21, 40, 31, 0.62);
+}
+
+.stories-search {
+  border: 1px solid rgba(21, 40, 31, 0.14);
+  background: #fffaf3;
+  color: #15281f;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stories-search::placeholder {
+  color: rgba(21, 40, 31, 0.48);
+}
+
+.stories-search:focus {
+  border-color: #b88735;
+  box-shadow: 0 0 0 3px rgba(184, 135, 53, 0.16);
+}
+
+.story-card {
+  border: 1px solid rgba(21, 40, 31, 0.12);
+  background: rgba(255, 250, 243, 0.9);
+  box-shadow: 0 12px 28px rgba(21, 40, 31, 0.06);
+}
+
+.story-card:hover {
+  box-shadow: 0 24px 48px rgba(21, 40, 31, 0.14);
+}
+
+.story-start {
+  color: #173326;
+  background: linear-gradient(135deg, #ead8ad 0%, #b88735 100%);
+}
