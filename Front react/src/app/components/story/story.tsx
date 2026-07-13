@@ -1,7 +1,7 @@
 import { Bookmark, BookOpen, ChevronLeft, ChevronRight, Clock, HelpCircle, MessageCircle, Play, Settings } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useProphet, useProphets } from "../../../hooks/useProphets";
-import { applyImageFallback, getFileUrl } from "../../../utils/media";
+import { applyImageFallback } from "../../../utils/media";
 import "./story.css";
 
 type Page =
@@ -41,11 +41,9 @@ export default function StoryPage({ onPage, prophetId }: { onPage: (p: Page) => 
       <div className="space-y-5">
           <div className="relative rounded-2xl overflow-hidden bg-black aspect-video shadow-xl">
             {prophet.videoPath && !videoFailed ? (
-              <video controls onError={() => setVideoFailed(true)} className="w-full h-full object-cover">
-                <source src={getFileUrl(prophet.videoPath)} type="video/mp4" />
-              </video>
+              <video src={prophet.videoPath} controls onError={() => setVideoFailed(true)} className="w-full h-full object-cover" />
             ) : (
-              <img src={getFileUrl(prophet.imagePath)} alt={prophet.name} onError={applyImageFallback} className="w-full h-full object-cover opacity-70" />
+              <img src={prophet.imagePath} alt={prophet.name} onError={applyImageFallback} className="w-full h-full object-cover opacity-70" />
             )}
             {!prophet.videoPath && !videoFailed && <div className="absolute inset-0 flex items-center justify-center">
               <button className="w-20 h-20 rounded-full bg-white/90 flex items-center justify-center shadow-2xl hover:scale-110 transition-transform">

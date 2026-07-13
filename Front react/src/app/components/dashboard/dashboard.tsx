@@ -1,6 +1,6 @@
 import { BookOpen, Clock, HelpCircle, Play, Video } from "lucide-react";
 import { useProphets } from "../../../hooks/useProphets";
-import { applyImageFallback, getFileUrl } from "../../../utils/media";
+import { applyImageFallback } from "../../../utils/media";
 
 type Page =
   | "landing" | "login" | "register"
@@ -54,7 +54,7 @@ export default function Dashboard({ onPage, onSelectProphet }: { onPage: (p: Pag
           {!loading && recentStories.map(p => (
             <div key={p.id} className="bg-card rounded-2xl overflow-hidden border border-border hover:shadow-lg transition-all group cursor-pointer" onClick={() => { onSelectProphet(p.id); onPage("story"); }}>
               <div className="relative h-36 overflow-hidden">
-                <img src={getFileUrl(p.imagePath)} alt={p.name} onError={applyImageFallback} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <img src={p.imagePath} alt={p.name} onError={applyImageFallback} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                 <div className="absolute inset-0 bg-black/20" />
                 <div className="absolute bottom-3 left-3 flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-semibold text-white" style={{ background: "rgba(0,0,0,0.5)" }}>
                   <Clock size={11} /> {p.duration}

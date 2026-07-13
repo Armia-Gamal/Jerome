@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Clock, Play, Search } from "lucide-react";
 import { useProphets } from "../../../hooks/useProphets";
-import { applyImageFallback, getFileUrl } from "../../../utils/media";
+import { applyImageFallback } from "../../../utils/media";
 import "./stories.css";
 
 type Page =
@@ -52,7 +52,7 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
             }}
           >
             <div className="relative h-44 overflow-hidden">
-              <img src={getFileUrl(p.imagePath)} alt={p.name} onError={applyImageFallback} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+              <img src={p.imagePath} alt={p.name} onError={applyImageFallback} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div className="absolute inset-0" style={{ background: "linear-gradient(0deg, rgba(0,0,0,0.6) 0%, transparent 60%)" }} />
               <div className="absolute bottom-3 right-3 left-3">
                 <div className="flex items-center justify-between mb-1.5">

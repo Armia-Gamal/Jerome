@@ -1,9 +1,10 @@
 import api from "../api/axios";
 import type { Prophet, ProphetFormValues } from "../types/api";
+import { getFileUrl } from "../utils/media";
 
 function normalizeProphet(data: any): Prophet {
-  const imagePath = data?.imagePath ?? data?.ImagePath ?? data?.image ?? data?.Image ?? data?.imageUrl ?? data?.ImageUrl ?? "";
-  const videoPath = data?.videoPath ?? data?.VideoPath ?? data?.video ?? data?.Video ?? data?.videoUrl ?? data?.VideoUrl ?? "";
+  const imagePath = getFileUrl(data?.imagePath ?? data?.ImagePath ?? data?.image ?? data?.Image ?? data?.imageUrl ?? data?.ImageUrl ?? "");
+  const videoPath = getFileUrl(data?.videoPath ?? data?.VideoPath ?? data?.video ?? data?.Video ?? data?.videoUrl ?? data?.VideoUrl ?? "");
 
   return {
     id: Number(data?.id ?? data?.Id ?? 0),

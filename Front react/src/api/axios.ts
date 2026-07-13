@@ -1,8 +1,9 @@
 import axios from "axios";
 import { clearAuthStorage, getToken } from "../utils/storage";
+import { API_BASE_URL, normalizeApiMediaPaths } from "../utils/media";
 
 const api = axios.create({
-  baseURL: "https://jeromee.runasp.net/api",
+  baseURL: API_BASE_URL,
 });
 
 api.interceptors.request.use(config => {
@@ -14,7 +15,10 @@ api.interceptors.request.use(config => {
 });
 
 api.interceptors.response.use(
-  response => response,
+  response => {
+    response.data = normalizeApiMediaPaths(response.data);
+    return response;
+  },
   error => {
     if (error.response?.status === 401) {
       clearAuthStorage();

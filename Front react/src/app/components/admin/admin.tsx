@@ -7,7 +7,7 @@ import { useProphets } from "../../../hooks/useProphets";
 import * as prophetService from "../../../services/prophetService";
 import * as questionService from "../../../services/questionService";
 import { clearAuthStorage } from "../../../utils/storage";
-import { applyImageFallback, getFileUrl } from "../../../utils/media";
+import { applyImageFallback } from "../../../utils/media";
 import type { Question } from "../../../types/api";
 import "./admin.css";
 
@@ -359,7 +359,7 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
                   selected.id === row.id ? "bg-green-50" : "hover:bg-muted"
                 }`}
               >
-                <img src={getFileUrl(row.imagePath)} alt={row.name} onError={applyImageFallback} className="w-12 h-12 rounded-xl object-cover" />
+                <img src={row.imagePath} alt={row.name} onError={applyImageFallback} className="w-12 h-12 rounded-xl object-cover" />
                 <span className="font-bold text-sm">{row.name}</span>
               </button>
             ))}
@@ -421,8 +421,8 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
                 {selected.videoPath ? (
                   <video
                     key={selected.videoPath}
-                    src={getFileUrl(selected.videoPath)}
-                    poster={getFileUrl(selected.imagePath)}
+                    src={selected.videoPath}
+                    poster={selected.imagePath}
                     className="absolute inset-0 w-full h-full object-cover"
                     autoPlay
                     muted
@@ -431,7 +431,7 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
                   />
                 ) : (
                   <>
-                    {selected.imagePath && <img src={getFileUrl(selected.imagePath)} alt={selected.name} onError={applyImageFallback} className="absolute inset-0 w-full h-full object-cover opacity-55" />}
+                    {selected.imagePath && <img src={selected.imagePath} alt={selected.name} onError={applyImageFallback} className="absolute inset-0 w-full h-full object-cover opacity-55" />}
                     <div className="absolute inset-0 bg-black/35" />
                     <div className="relative z-10 flex items-center gap-2 text-sm">
                       <Video size={18} />
