@@ -2,7 +2,7 @@ import axios from "axios";
 import { clearAuthStorage, getToken } from "../utils/storage";
 
 const api = axios.create({
-  baseURL: "http://jeromee.runasp.net/api",
+  baseURL: "https://jeromee.runasp.net/api",
 });
 
 api.interceptors.request.use(config => {
