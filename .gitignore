@@ -1,7 +1,28 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Build
+bin/
+obj/
+
+# User files
+*.user
+*.suo
+*.userosscache
+
+# Logs
+logs/
+
+# Node
 node_modules/
+
+# React
 dist/
-build/
+
+# Environment
 .env
 .env.*
-.vscode/
-*.log
+
+# Publish
+publish/

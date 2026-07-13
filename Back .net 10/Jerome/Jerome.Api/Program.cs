@@ -19,7 +19,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"));
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        sqlOptions =>
+        {
+            sqlOptions.EnableRetryOnFailure(
+                maxRetryCount: 5,
+                maxRetryDelay: TimeSpan.FromSeconds(30),
+                errorNumbersToAdd: null);
+        });
 });
 
 // =======================================================
@@ -58,10 +65,10 @@ builder.Services.AddSwaggerGen(options =>
         {
             new OpenApiSecurityScheme
             {
-                Reference=new OpenApiReference
+                Reference = new OpenApiReference
                 {
-                    Id="Bearer",
-                    Type=ReferenceType.SecurityScheme
+                    Id = "Bearer",
+                    Type = ReferenceType.SecurityScheme
                 }
             },
             Array.Empty<string>()
@@ -74,13 +81,9 @@ builder.Services.AddSwaggerGen(options =>
 // =======================================================
 
 builder.Services.AddScoped<JwtHelper>();
-
 builder.Services.AddScoped<IAuthService, AuthService>();
-
 builder.Services.AddScoped<IUploadService, UploadService>();
-
 builder.Services.AddScoped<IProphetService, ProphetService>();
-
 builder.Services.AddScoped<IQuestionService, QuestionService>();
 
 // =======================================================
@@ -94,11 +97,8 @@ var key = Encoding.UTF8.GetBytes(jwt["Key"]!);
 builder.Services
 .AddAuthentication(options =>
 {
-    options.DefaultAuthenticateScheme =
-        JwtBearerDefaults.AuthenticationScheme;
-
-    options.DefaultChallengeScheme =
-        JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(options =>
 {
@@ -114,7 +114,6 @@ builder.Services
         ValidateIssuerSigningKey = true,
 
         ValidIssuer = jwt["Issuer"],
-
         ValidAudience = jwt["Audience"],
 
         IssuerSigningKey = new SymmetricSecurityKey(key),
@@ -150,6 +149,24 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // =======================================================
+// Create Database Automatically
+// =======================================================
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+    try
+    {
+        db.Database.Migrate();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Database Migration Error: {ex.Message}");
+    }
+}
+
+// =======================================================
 // Create wwwroot Automatically
 // =======================================================
 
@@ -169,11 +186,8 @@ Directory.CreateDirectory(Path.Combine(webRoot, "Uploads", "Videos"));
 // Middleware
 // =======================================================
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
