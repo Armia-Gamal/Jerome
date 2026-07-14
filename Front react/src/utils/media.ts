@@ -4,6 +4,7 @@ const normalizeBaseUrl = (url: string) => url.replace(/\/+$/, "");
 
 const configuredApiBaseUrl = import.meta.env.VITE_API_BASE_URL as string | undefined;
 const configuredApiOrigin = import.meta.env.VITE_API_ORIGIN as string | undefined;
+const DEFAULT_API_ORIGIN = "https://jeromee.runasp.net";
 
 export const API_BASE_URL = configuredApiBaseUrl
   ? normalizeBaseUrl(configuredApiBaseUrl)
@@ -11,7 +12,7 @@ export const API_BASE_URL = configuredApiBaseUrl
 
 export const API_ORIGIN = normalizeBaseUrl(
   configuredApiOrigin ??
-    (configuredApiBaseUrl?.replace(/\/api\/?$/i, "") || "http://jeromee.runasp.net"),
+    (configuredApiBaseUrl?.replace(/\/api\/?$/i, "") || DEFAULT_API_ORIGIN),
 );
 
 const IMAGE_PLACEHOLDER_SRC =
@@ -23,7 +24,10 @@ const isPlainObject = (value: unknown) => Object.prototype.toString.call(value) 
 
 export function getFileUrl(path?: string | null) {
   if (!path) return "";
-  if (ABSOLUTE_HTTP_URL_PATTERN.test(path) || path.startsWith("blob:") || path.startsWith("data:")) return path;
+  if (path.startsWith("blob:") || path.startsWith("data:")) return path;
+  if (ABSOLUTE_HTTP_URL_PATTERN.test(path)) {
+    return path.replace(/^http:\/\/jeromee\.runasp\.net/i, DEFAULT_API_ORIGIN);
+  }
   return `${API_ORIGIN}${path.startsWith("/") ? path : `/${path}`}`;
 }
 

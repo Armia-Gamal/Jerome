@@ -36,7 +36,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://jeromee.runasp.net',
+        target: 'https://jeromee.runasp.net',
         changeOrigin: true,
       },
     },
