@@ -94,20 +94,6 @@ export default function AppShell({
             <Menu size={20} className="text-foreground" />
           </button>
           <div className="flex items-center gap-2">
-            <div className="relative">
-              <Search size={16} className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground" />
-              <input
-                type="text"
-                placeholder="ابحث عن قصة..."
-                className="app-search pr-9 pl-4 py-2 rounded-xl text-sm focus:outline-none w-52"
-              />
-            </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <button className="relative p-2 rounded-xl hover:bg-muted transition-colors">
-              <Bell size={20} className="text-muted-foreground" />
-              <span className="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full" />
-            </button>
           </div>
         </header>
 
