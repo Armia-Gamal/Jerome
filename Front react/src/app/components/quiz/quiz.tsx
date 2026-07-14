@@ -111,10 +111,10 @@ export default function QuizPage({ onPage, prophetId }: { onPage: (p: Page) => v
             <X size={16} /> إنهاء الاختبار
           </button>
           <div className="flex items-center gap-3">
-            <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-sm font-bold" style={{ background: timeLeft <= 10 ? "#FEE2E2" : "#E8F5E9", color: timeLeft <= 10 ? "#DC2626" : "#2E7D32" }}>
+            {/* <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-sm font-bold" style={{ background: timeLeft <= 10 ? "#FEE2E2" : "#E8F5E9", color: timeLeft <= 10 ? "#DC2626" : "#2E7D32" }}>
               <Clock size={14} />
               {timeLeft}ث
-            </div>
+            </div> */}
             <span className="text-sm text-muted-foreground font-medium">{current + 1} / {total}</span>
           </div>
         </div>
