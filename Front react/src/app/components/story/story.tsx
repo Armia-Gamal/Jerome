@@ -1,4 +1,4 @@
-import { Bookmark, BookOpen, ChevronLeft, ChevronRight, HelpCircle, MessageCircle, Play } from "lucide-react";
+import { Bookmark, BookOpen, ChevronLeft, ChevronRight, Clock, HelpCircle, MessageCircle, Play } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useProphet, useProphets } from "../../../hooks/useProphets";
 import { applyImageFallback } from "../../../utils/media";
@@ -14,10 +14,21 @@ export default function StoryPage({ onPage, prophetId }: { onPage: (p: Page) => 
   const fallbackId = prophetId ?? prophets[0]?.id;
   const { prophet, loading, error } = useProphet(fallbackId);
   const [videoFailed, setVideoFailed] = useState(false);
+  const [videoDuration, setVideoDuration] = useState("");
 
   useEffect(() => {
     setVideoFailed(false);
+    setVideoDuration("");
   }, [prophet?.id]);
+
+  const handleVideoMetadataLoaded = (event: React.SyntheticEvent<HTMLVideoElement>) => {
+    const durationInSeconds = event.currentTarget.duration;
+    if (!Number.isFinite(durationInSeconds) || durationInSeconds <= 0) return;
+    const totalSeconds = Math.round(durationInSeconds);
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    setVideoDuration(seconds > 0 ? `${minutes}د ${seconds}ث` : `${minutes}د`);
+  };
 
   if (loadingProphets || loading) {
     return <div className="story-page p-6 space-y-6 text-muted-foreground text-sm">جاري تحميل القصة...</div>;
@@ -41,7 +52,13 @@ export default function StoryPage({ onPage, prophetId }: { onPage: (p: Page) => 
       <div className="space-y-5">
           <div className="relative rounded-2xl overflow-hidden bg-black aspect-video shadow-xl">
             {prophet.videoPath && !videoFailed ? (
-              <video src={prophet.videoPath} controls onError={() => setVideoFailed(true)} className="w-full h-full object-cover" />
+              <video
+                src={prophet.videoPath}
+                controls
+                onLoadedMetadata={handleVideoMetadataLoaded}
+                onError={() => setVideoFailed(true)}
+                className="w-full h-full object-cover"
+              />
             ) : (
               <img src={prophet.imagePath} alt={prophet.name} onError={applyImageFallback} className="w-full h-full object-cover opacity-70" />
             )}
@@ -63,21 +80,30 @@ export default function StoryPage({ onPage, prophetId }: { onPage: (p: Page) => 
                 <h1 className="text-2xl font-black">{prophet.name}</h1>
                 <p className="text-muted-foreground text-sm mt-1">قصة {prophet.name}</p>
               </div>
-              <div className="flex gap-2 shrink-0">
+              {/* <div className="flex gap-2 shrink-0">
                 <button className="p-2 rounded-xl border border-border hover:bg-muted transition-colors"><Bookmark size={18} /></button>
                 <button className="p-2 rounded-xl border border-border hover:bg-muted transition-colors"><MessageCircle size={18} /></button>
-              </div>
+              </div> */}
             </div>
             <p className="text-muted-foreground text-sm leading-7">
               {prophet.description}
             </p>
-            {prophet.bibleReference.trim() && (
+            {(prophet.bibleReference.trim() || videoDuration) && (
               <div className="flex flex-wrap gap-4 mt-5 pt-4 border-t border-border text-sm">
-                <div className="flex items-center gap-2 text-muted-foreground">
-                  <BookOpen size={16} className="text-green-700" />
-                  <span className="font-bold text-foreground">الشاهد:</span>
-                  <span>{prophet.bibleReference}</span>
-                </div>
+                {prophet.bibleReference.trim() && (
+                  <div className="flex items-center gap-2 text-muted-foreground">
+                    <BookOpen size={16} className="text-green-700" />
+                    <span className="font-bold text-foreground">الشاهد:</span>
+                    <span>{prophet.bibleReference}</span>
+                  </div>
+                )}
+                {videoDuration && (
+                  <div className="flex items-center gap-2 text-muted-foreground">
+                    <Clock size={16} className="text-green-700" />
+                    <span className="font-bold text-foreground">مدة الفيديو:</span>
+                    <span>{videoDuration}</span>
+                  </div>
+                )}
               </div>
             )}
           </div>

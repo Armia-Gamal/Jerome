@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BookOpen, Play, Search } from "lucide-react";
+import { BookOpen, Clock, Play, Search } from "lucide-react";
 import { useProphets } from "../../../hooks/useProphets";
 import { applyImageFallback } from "../../../utils/media";
 import "./stories.css";
@@ -11,7 +11,20 @@ type Page =
 
 export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: Page) => void; onSelectProphet: (id: number) => void }) {
   const [search, setSearch] = useState("");
+  const [videoDurations, setVideoDurations] = useState<Record<number, string>>({});
   const { prophets, loading, error } = useProphets();
+
+  const setVideoDuration = (prophetId: number, durationInSeconds: number) => {
+    if (!Number.isFinite(durationInSeconds) || durationInSeconds <= 0) return;
+    const totalSeconds = Math.round(durationInSeconds);
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    const formattedDuration = seconds > 0 ? `${minutes}د ${seconds}ث` : `${minutes}د`;
+    setVideoDurations(prev => prev[prophetId] === formattedDuration ? prev : {
+      ...prev,
+      [prophetId]: formattedDuration,
+    });
+  };
 
   const filtered = [...prophets]
     .sort((a, b) => a.id - b.id)
@@ -44,7 +57,10 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
         {loading && <div className="text-muted-foreground text-sm">جاري تحميل القصص...</div>}
         {!loading && error && <div className="text-muted-foreground text-sm">{error}</div>}
         {!loading && !error && filtered.length === 0 && <div className="text-muted-foreground text-sm">لا توجد قصص متاحة حالياً.</div>}
-        {!loading && filtered.map(p => (
+        {!loading && filtered.map(p => {
+          const duration = videoDurations[p.id];
+
+          return (
           <div
             key={p.id}
             className="story-card rounded-2xl overflow-hidden hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group cursor-pointer"
@@ -53,6 +69,14 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
               onPage("story");
             }}
           >
+            {p.videoPath && (
+              <video
+                src={p.videoPath}
+                preload="metadata"
+                className="hidden"
+                onLoadedMetadata={event => setVideoDuration(p.id, event.currentTarget.duration)}
+              />
+            )}
             <div className="relative h-44 overflow-hidden">
               <img src={p.imagePath} alt={p.name} onError={applyImageFallback} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
               <div className="absolute inset-0" style={{ background: "linear-gradient(0deg, rgba(0,0,0,0.6) 0%, transparent 60%)" }} />
@@ -69,10 +93,20 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
               </div>
             </div>
             <div className="p-4">
-              {p.bibleReference.trim() && (
-                <div className="story-reference flex items-center gap-1.5 mb-3 text-xs font-semibold">
-                  <BookOpen size={13} />
-                  <span>الشاهد: {p.bibleReference}</span>
+              {(p.bibleReference.trim() || duration) && (
+                <div className="story-reference flex flex-wrap items-center gap-x-3 gap-y-1.5 mb-3 text-xs font-semibold">
+                  {p.bibleReference.trim() && (
+                    <span className="inline-flex items-center gap-1.5">
+                      <BookOpen size={13} />
+                      <span>الشاهد: {p.bibleReference}</span>
+                    </span>
+                  )}
+                  {duration && (
+                    <span className="inline-flex items-center gap-1.5">
+                      <Clock size={13} />
+                      <span>{duration}</span>
+                    </span>
+                  )}
                 </div>
               )}
               <div className="flex items-center justify-between">
@@ -85,7 +119,8 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
               </div>
             </div>
           </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
