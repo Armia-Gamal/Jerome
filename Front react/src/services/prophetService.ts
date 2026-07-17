@@ -36,7 +36,9 @@ function toProphetFormData(values: ProphetFormValues) {
 export async function getProphets() {
   const { data } = await api.get("/Prophet");
   const items = Array.isArray(data) ? data : data?.items ?? data?.Items ?? [];
-  return items.map(normalizeProphet);
+  return items
+    .map(normalizeProphet)
+    .sort((a, b) => b.id - a.id);
 }
 
 export async function getProphet(id: number) {

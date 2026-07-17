@@ -1,4 +1,4 @@
-import { Bookmark, BookOpen, ChevronLeft, ChevronRight, Clock, HelpCircle, MessageCircle, Play, Settings } from "lucide-react";
+import { Bookmark, BookOpen, ChevronLeft, ChevronRight, HelpCircle, MessageCircle, Play } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useProphet, useProphets } from "../../../hooks/useProphets";
 import { applyImageFallback } from "../../../utils/media";
@@ -71,12 +71,15 @@ export default function StoryPage({ onPage, prophetId }: { onPage: (p: Page) => 
             <p className="text-muted-foreground text-sm leading-7">
               {prophet.description}
             </p>
-            <div className="flex flex-wrap gap-4 mt-5 pt-4 border-t border-border text-sm">
-              <div className="flex items-center gap-2 text-muted-foreground">
+            {prophet.bibleReference.trim() && (
+              <div className="flex flex-wrap gap-4 mt-5 pt-4 border-t border-border text-sm">
+                <div className="flex items-center gap-2 text-muted-foreground">
+                  <BookOpen size={16} className="text-green-700" />
+                  <span className="font-bold text-foreground">الشاهد:</span>
+                  <span>{prophet.bibleReference}</span>
+                </div>
               </div>
-              <div className="flex items-center gap-2 text-muted-foreground">
-              </div>
-            </div>
+            )}
           </div>
 
           <button

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Clock, Play, Search } from "lucide-react";
+import { BookOpen, Play, Search } from "lucide-react";
 import { useProphets } from "../../../hooks/useProphets";
 import { applyImageFallback } from "../../../utils/media";
 import "./stories.css";
@@ -13,10 +13,12 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
   const [search, setSearch] = useState("");
   const { prophets, loading, error } = useProphets();
 
-  const filtered = prophets.filter(p => {
-    const matchSearch = p.name.includes(search) || p.bibleReference.toLowerCase().includes(search.toLowerCase());
-    return matchSearch;
-  });
+  const filtered = [...prophets]
+    .sort((a, b) => a.id - b.id)
+    .filter(p => {
+      const matchSearch = p.name.includes(search) || p.bibleReference.toLowerCase().includes(search.toLowerCase());
+      return matchSearch;
+    });
 
   return (
     <div className="stories-page p-6 space-y-6">
@@ -38,7 +40,7 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+      <div className="stories-grid grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {loading && <div className="text-muted-foreground text-sm">جاري تحميل القصص...</div>}
         {!loading && error && <div className="text-muted-foreground text-sm">{error}</div>}
         {!loading && !error && filtered.length === 0 && <div className="text-muted-foreground text-sm">لا توجد قصص متاحة حالياً.</div>}
@@ -58,13 +60,21 @@ export default function StoriesPage({ onPage, onSelectProphet }: { onPage: (p: P
                 <div className="flex items-center justify-between mb-1.5">
                   <span className="text-white font-bold text-lg">{p.name}</span>
                 </div>
-                <div className="flex items-center gap-2 text-[#ead8ad] text-xs">
-                </div>
+                {p.bibleReference.trim() && (
+                  <div className="flex items-center gap-1.5 text-[#ead8ad] text-xs font-semibold">
+                    <BookOpen size={13} />
+                    <span>{p.bibleReference}</span>
+                  </div>
+                )}
               </div>
             </div>
             <div className="p-4">
-              <div className="flex items-center justify-between mb-3">
-              </div>
+              {p.bibleReference.trim() && (
+                <div className="story-reference flex items-center gap-1.5 mb-3 text-xs font-semibold">
+                  <BookOpen size={13} />
+                  <span>الشاهد: {p.bibleReference}</span>
+                </div>
+              )}
               <div className="flex items-center justify-between">
                 <button
                   className="story-start flex items-center gap-1.5 px-4 py-1.5 rounded-xl text-xs font-bold transition-all hover:opacity-90"

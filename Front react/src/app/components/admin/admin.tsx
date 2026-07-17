@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { isAxiosError } from "axios";
-import { Image, LogOut, PlusCircle, Save, Trash2, Upload, Video } from "lucide-react";
+import { BookOpen, Image, LogOut, PlusCircle, Save, Trash2, Upload, Video } from "lucide-react";
 import logo from "../../../assets/logo.jpg";
 import { toast } from "sonner";
 import { useProphets } from "../../../hooks/useProphets";
@@ -10,8 +10,6 @@ import { clearAuthStorage } from "../../../utils/storage";
 import { applyImageFallback } from "../../../utils/media";
 import type { Question } from "../../../types/api";
 import "./admin.css";
-
-const HIDDEN_FORM_FIELD_VALUE = "غير متاح";
 
 const getVideoDuration = (file: File): Promise<number> => {
   return new Promise((resolve, reject) => {
@@ -68,18 +66,20 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
   const selected = rows.find(row => row.id === selectedId) ?? rows[0];
 
   useEffect(() => {
-    const nextRows = prophets.map(prophet => ({
-      id: prophet.id,
-      name: prophet.name,
-      description: prophet.description,
-      bibleReference: prophet.bibleReference,
-      duration: prophet.duration,
-      imagePath: prophet.imagePath,
-      imageName: prophet.imagePath ? "الصورة الحالية" : "",
-      videoPath: prophet.videoPath,
-      videoName: prophet.videoPath ? "الفيديو الحالي" : "",
-      questions: [],
-    }));
+    const nextRows = [...prophets]
+      .sort((a, b) => a.id - b.id)
+      .map(prophet => ({
+        id: prophet.id,
+        name: prophet.name,
+        description: prophet.description,
+        bibleReference: prophet.bibleReference,
+        duration: prophet.duration,
+        imagePath: prophet.imagePath,
+        imageName: prophet.imagePath ? "الصورة الحالية" : "",
+        videoPath: prophet.videoPath,
+        videoName: prophet.videoPath ? "الفيديو الحالي" : "",
+        questions: [],
+      }));
     setRows(nextRows);
     setSelectedId(current => current || nextRows[0]?.id || 0);
   }, [prophets]);
@@ -114,7 +114,7 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
       id: nextId,
       name: "نبي جديد",
       description: "",
-      bibleReference: HIDDEN_FORM_FIELD_VALUE,
+      bibleReference: "",
       duration: "1", // Default duration in minutes for a new prophet
       imagePath: "",
       imageName: "",
@@ -242,7 +242,7 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
       const payload = {
         name: selected.name,
         description: selected.description,
-        bibleReference: selected.bibleReference || HIDDEN_FORM_FIELD_VALUE,
+        bibleReference: selected.bibleReference,
         duration: selected.duration || "1", // Fallback to 1 minute if duration is not set
         image: selected.imageFile ?? null,
         video: selected.videoFile ?? null,
@@ -368,7 +368,7 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
           <section className="admin-card rounded-2xl p-5 space-y-6">
             {selected && (
             <>
-            <div className="grid lg:grid-cols-3 gap-4">
+            <div className="grid lg:grid-cols-2 gap-4">
               <div>
                 <label className="admin-label">اسم النبي</label>
                 <input
@@ -378,6 +378,18 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
                   placeholder="اسم النبي"
                 />
               </div>
+              <div>
+                <label className="admin-label">الشاهد</label>
+                <input
+                  value={selected.bibleReference}
+                  onChange={event => updateSelected({ bibleReference: event.target.value })}
+                  className="admin-input"
+                  placeholder="مثال: تكوين 6-9"
+                />
+              </div>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-4">
               <div>
                 <label className="admin-label">الصورة</label>
                 <label className="admin-upload-box">
@@ -405,6 +417,14 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
                 </label>
               </div>
             </div>
+
+            {selected.bibleReference.trim() && (
+              <div className="rounded-2xl border border-border bg-muted/30 p-4 text-sm text-muted-foreground flex items-center gap-2">
+                <BookOpen size={18} className="text-green-700" />
+                <span className="font-bold text-foreground">الشاهد:</span>
+                <span>{selected.bibleReference}</span>
+              </div>
+            )}
 
             <div>
               <label className="admin-label">وصف النبي</label>

@@ -10,7 +10,8 @@
 }
 
 .stories-subtitle,
-.story-verses {
+.story-verses,
+.story-reference {
   color: rgba(21, 40, 31, 0.62);
 }
 
@@ -28,6 +29,10 @@
 .stories-search:focus {
   border-color: #b88735;
   box-shadow: 0 0 0 3px rgba(184, 135, 53, 0.16);
+}
+
+.stories-grid {
+  direction: rtl;
 }
 
 .story-card {
