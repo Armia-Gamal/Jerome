@@ -418,13 +418,13 @@ export default function AdminDashboard({ onPage }: { onPage: (p: Page) => void }
               </div>
             </div>
 
-            {selected.bibleReference.trim() && (
+            {/* {selected.bibleReference.trim() && (
               <div className="rounded-2xl border border-border bg-muted/30 p-4 text-sm text-muted-foreground flex items-center gap-2">
                 <BookOpen size={18} className="text-green-700" />
                 <span className="font-bold text-foreground">الشاهد:</span>
                 <span>{selected.bibleReference}</span>
               </div>
-            )}
+            )} */}
 
             <div>
               <label className="admin-label">وصف النبي</label>
